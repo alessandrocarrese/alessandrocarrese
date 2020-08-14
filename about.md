@@ -4,11 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Human being. 
+Human being with a couldn't-care-less attitude. 
+
+Always working on multiple things at the same time.
+Easily Stressed!
 
 ### More Information
 
-Working on different things simultanusly, everytime.
+I learned long ago, never to wrestle with a pig. You get dirty, and besides, the pig likes it.
+G.B.S.
 
 ### Contact me
 
