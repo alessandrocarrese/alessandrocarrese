@@ -11,7 +11,9 @@ Always working on multiple things at the same time.
 ### More Information
 
 I learned long ago, never to wrestle with a pig. 
+
 You get dirty, and besides, the pig likes it.
+
 G.B.S.
 
 ### Contact me
