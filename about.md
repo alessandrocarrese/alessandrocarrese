@@ -7,7 +7,6 @@ permalink: /about/
 Human being with a couldn't-care-less attitude. 
 
 Always working on multiple things at the same time.
-Easily Stressed!
 
 ### More Information
 
