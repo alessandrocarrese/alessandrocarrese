@@ -11,7 +11,7 @@ It felt strange to me to declare a variable using the ":=" symbols, or importing
 Anyway I loved the way the compiler works and the ability of building the code to an executable avoiding all the burdains of installing libraries on other machines.
 Finally I must say: I like GO.
 
-# The project:
+# The project
 
 To publish on a Facebook page it is necessary to have the right permissions from Facebook and a Facebook App
 
@@ -25,11 +25,16 @@ To create a short lived user token we can use:
 - Graph Explorer tool
 - Facebook Login Dialog 
 
-I did it using the Graph Explorer Tool choosing the app previously created, the type of token: user and adding the permissions:
-pages_show_list
-pages_read_engagement
-pages_manage_posts
-public_profile
+I did it using the Graph Explorer Tool choosing the app previously created.
+
+Type of token: 
+- user 
+
+Permissions:
+- pages_show_list
+- pages_read_engagement
+- pages_manage_posts
+- public_profile
 
 **Third step: Generate a long lived user access (optional)**
 To generate a long lived token we need to make a GET request with the app_id, app_secret and the short lived acccess token previously generated:
