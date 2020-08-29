@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first experience with Golang
+title: "[DEV] My first experience with Golang"
 subtitle: # [DEV] Publishing on a Facebook page from an RSS news feed
 ---
 
