@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first experience with Golang: Publishing on a Facebook page from an RSS news feed
+title: [DEV] My first experience with Golang: Publishing on a Facebook page from an RSS news feed
 ---
 
 I've always been suspicious about golang even if the web is full of people talking about it. So I decided to try it for a simple project.
