@@ -1,8 +1,8 @@
 ---
 layout: post
 title: My first experience with Golang
+subtitle: # [DEV] Publishing on a Facebook page from an RSS news feed
 ---
-# [DEV] My first experience with Golang: Publishing on a Facebook page from an RSS news feed
 
 I've always been suspicious about golang even if the web is full of people talking about it. So I decided to try it for a simple project.
 I wanted to build a small code to publish on a facebook page the items fetched from a news feed (in particular Google RSS News Feed).
