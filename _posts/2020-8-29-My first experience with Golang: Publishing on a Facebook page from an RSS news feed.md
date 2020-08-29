@@ -32,18 +32,18 @@ public_profile
 Third step: Generate a long lived user access (optional)
 To generate a long lived token we need to make a GET request with the app_id, app_secret and the short lived acccess token previously generated:
 
-  curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
-  client_id={app-id}&
-  client_secret={app-secret}&
-  fb_exchange_token={short-lived-user-access-token}"
+    curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
+    client_id={app-id}&
+    client_secret={app-secret}&
+    fb_exchange_token={short-lived-user-access-token}"
 This token has 60 days expiration days, but we don't care since we are going to use it only as requirement to generate a non-expiring page token;
 
 Fourth step: Generate a page token
 Here we need to make another GET with the token we've jsut obtained. To do this we also need the id of the page we want to manage from API (to find this there are a lot of small guides online).
 
-  curl -i -X GET "https://graph.facebook.com/{page-id}?
-  fields=access_token&
-  access_token={user-access-token}"
+    curl -i -X GET "https://graph.facebook.com/{page-id}?
+    fields=access_token&
+    access_token={user-access-token}"
   
 Fifth Step: The code
 
