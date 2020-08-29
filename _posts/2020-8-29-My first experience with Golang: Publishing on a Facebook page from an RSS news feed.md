@@ -15,7 +15,7 @@ Finally I must say: I like GO.
 
 To publish on a Facebook page it is necessary to have the right permissions from Facebook and a Facebook App
 
-**First Step: Create a Facebook Ap**
+**First Step: Create a Facebook App**
 
 from https://developers.facebook.com/apps
 
