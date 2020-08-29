@@ -9,7 +9,7 @@ I did it in Go, and I admit it has been a surprise to see how fast the developme
 the simplicity of the Go's syntax for me was not really interesting, and I did not quite like it before developing this project.
 It felt strange to me to declare a variable using the ":=" symbols, or importing modules withous using the comma, and start the for loop that looks like C based one but without the needing of parenthesis.
 Anyway I loved the way the compiler works and the ability of building the code to an executable avoiding all the burdains of installing libraries on other machines.
-Finally I must say: I like GO.
+Actually, I must say: I like GO.
 
 # The project
 
