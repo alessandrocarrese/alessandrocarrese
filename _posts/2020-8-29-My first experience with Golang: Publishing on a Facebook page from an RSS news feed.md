@@ -11,13 +11,15 @@ It felt strange to me to declare a variable using the ":=" symbols, or importing
 Anyway I loved the way the compiler works and the ability of building the code to an executable avoiding all the burdains of installing libraries on other machines.
 Finally I must say: I like GO.
 
-The project:
+# The project:
 
 To publish on a Facebook page it is necessary to have the right permissions from Facebook and a Facebook App
 
-First Step: Create a Facebook App from https://developers.facebook.com/apps
+**First Step: Create a Facebook Ap**
 
-Second step: Create a Facebook Short Lived User Access Token
+from https://developers.facebook.com/apps
+
+**Second step: Create a Facebook Short Lived User Access Token**
 
 To create a short lived user token we can use:
 - Graph Explorer tool
@@ -29,7 +31,7 @@ pages_read_engagement
 pages_manage_posts
 public_profile
 
-Third step: Generate a long lived user access (optional)
+**Third step: Generate a long lived user access (optional)**
 To generate a long lived token we need to make a GET request with the app_id, app_secret and the short lived acccess token previously generated:
 
     curl -i -X GET "https://graph.facebook.com/oauth/access_token?grant_type=fb_exchange_token&
@@ -38,14 +40,14 @@ To generate a long lived token we need to make a GET request with the app_id, ap
     fb_exchange_token={short-lived-user-access-token}"
 This token has 60 days expiration days, but we don't care since we are going to use it only as requirement to generate a non-expiring page token;
 
-Fourth step: Generate a page token
+**Fourth step: Generate a page token**
 Here we need to make another GET with the token we've jsut obtained. To do this we also need the id of the page we want to manage from API (to find this there are a lot of small guides online).
 
     curl -i -X GET "https://graph.facebook.com/{page-id}?
     fields=access_token&
     access_token={user-access-token}"
   
-Fifth Step: The code
+**Fifth Step: The code**
 
 To publish the feed it is necessary to parse it and to send the API call to the facebook endpoint.
 To parse the feed I used "gofeed", installed via "go get github.com/mmcdole/gofeed"; 
@@ -102,7 +104,7 @@ package main
 
      }
 
-This code fetch the feed, iterate over it and create a POST using the Publish a Link endpoint from Facebook:
+Note: this code fetch the feed, iterate over it and create a POST using the Publish a Link endpoint from Facebook:
 
      curl -i -X "POST https://graph.facebook.com/{page-id}/feed
        ?message=Smart video calling to fit every family
