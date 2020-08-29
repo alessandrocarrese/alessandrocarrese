@@ -5,7 +5,7 @@ title: [DEV] My first experience with Golang: Publishing on a Facebook page from
 
 I've always been suspicious about golang even if the web is full of people talking about it. So I decided to try it for a simple project.
 I wanted to build a small code to publish on a facebook page the items fetched from a news feed (in particular Google RSS News Feed).
-I did it in Go, and I admit it has been a surprise to see how fast the development has been. I have a bit of experience with C# and I love Elixir as functional language, but I mostly use Python. So coming from the Python's syntax
+I did it in Go, and I admit it has been a surprise to see how fast the development has been. I have a bit of experience with C/C# and I love Elixir as functional language, but I mostly use Python. So coming from the Python's syntax
 the simplicity of the Go's syntax was not really interesting to me, and I did not quite like it before starting this project.
 It felt strange to me to declare a variable using the ":=" symbols, or importing modules without using the comma, and start a C like for loop without the parenthesis.
 Anyway I loved the way the compiler works and the possibility of building the code to an executable avoiding all the burdains of installing libraries on other machines.
